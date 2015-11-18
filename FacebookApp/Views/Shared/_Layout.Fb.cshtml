@@ -4,20 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/Content/Facebook.min.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
-<body>
-    <img src="~/Content/images/facebook-header.png" />    
-    <div class="container body-content" style="float: left; width: 77%">
+<body id="FacebookApp">
+    <img src="~/Content/images/facebook-header.png" />
+    <div class="container body-content fbbody" style="float: left; width: 77%">
         <div style="width: 760px; margin: 0 auto">
             @RenderBody()
-        </div>        
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        </div>
     </div>
     <div style="float: right">
         <img src="~/Content/images/facebook-sidebar.png" />

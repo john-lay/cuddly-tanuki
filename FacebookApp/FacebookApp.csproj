@@ -164,6 +164,14 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Facebook.css">
+      <DependentUpon>Facebook.less</DependentUpon>
+    </Content>
+    <Content Include="Content\Facebook.min.css">
+      <DependentUpon>Facebook.css</DependentUpon>
+    </Content>
+    <Content Include="Content\images\a.jpg" />
+    <Content Include="Content\images\b.jpg" />
     <Content Include="Content\images\facebook-header.png" />
     <Content Include="Content\images\facebook-sidebar.png" />
     <Content Include="favicon.ico" />
@@ -172,6 +180,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Facebook.less" />
+    <Content Include="Content\Facebook.css.map">
+      <DependentUpon>Facebook.css</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
